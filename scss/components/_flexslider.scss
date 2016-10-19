@@ -1,0 +1,168 @@
+// Custom variables\
+//$flexsliderheight-large: 650px;
+//$flexsliderheight-medium: 580px;
+//$flexsliderheight-small: 400px;
+
+
+//$body-font-color: #666;
+
+.flexslider {
+	margin-bottom: 0;
+}
+/*
+Bollarna om de behövs
+
+.flex-control-nav {
+    bottom: 10px;
+    z-index: 100;
+}
+.flex-control-paging li a {
+    background: none 0 0 repeat scroll rgba(255, 255, 255, 0.9);
+    box-shadow: none;
+}
+.flex-control-paging li a:hover {
+    background: orange;
+}
+.flex-control-paging li a.flex-active {
+    background: #000 none repeat scroll 0 0;  
+}*/
+
+/*bläddringspilar\*/
+.flex-direction-nav a.flex-next::before {
+    /*content: none;*/
+    
+}
+.slides flex-next{
+	/*overflow: hidden;*/
+}
+.flex-direction-nav a::before,
+.flex-direction-nav a::after {
+    color: rgba(0, 0, 0, 0.8);
+    content: none !important;
+    display: inline-block;
+    font-family: Arial;
+    
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+ul.flex-direction-nav a{
+	font-size: 3rem;
+	color: #fff;
+	overflow: visible;
+	padding: 0;
+	margin: 0;
+	line-height: 3rem;
+	
+	width: 56px;
+	height: 56px;
+	top: 43%;
+}
+a.flex-next{
+	background: url("../images/PilMeny28.png") no-repeat center center;
+}
+a.flex-prev{
+	background: url("../images/PilMenyV28.png") no-repeat center center;
+}
+
+.flexslider{
+	border:  0;
+}
+.flex-slider{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	border: 0;
+}
+.flex-slider .flex-big-image{
+	background-size: cover;
+	background-position: center top;
+	width: 100%;
+}
+
+.flex-slider .extra-wrapper{
+	position: absolute;
+	z-index: 1111;
+	top: 0;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.flex-slider .flex-text{
+	position: absolute;
+	bottom: 3.5rem;
+	color: #fff;
+	width: 100%;
+	
+	
+}
+.flex-slider .flex-text p{
+	font-family: Arial, serif;
+	font-weight: 400;
+	margin-bottom: 0;
+	text-shadow: 1px 1px 4px #000;
+}
+
+
+.flexslider .flex-direction-nav a{
+    display: block;
+}
+@media only screen and (min-width: 64.063em){ 
+	.flex-slider .flex-big-image{
+		height:  580px;
+	}
+	.flex-control-nav{
+		/*display:  none;*/
+	}
+	
+	.flex-slider .extra-wrapper{
+		min-height: 580px;
+		height:auto !important; 
+	}
+	
+	.flex-slider .flex-text p{
+		font-size: 2.6rem;
+		line-height: 3.5rem;
+	}
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+	
+	.flex-slider .flex-big-image{
+		height:  480px;
+	}
+	.flex-control-nav{
+		/*display:  none;*/
+	}
+	
+	.flex-slider .extra-wrapper{
+		min-height: 480px;
+		
+	}
+	.flex-slider .flex-text p{
+		font-size: 1.8rem;
+		line-height: 2.5rem;
+	}
+}
+@media only screen and (max-width: 40em) { 
+	.flex-slider .flex-big-image{
+		height:  400px;
+	}
+	
+	
+	.flex-direction-nav{
+		display: none;	
+	}
+	.flex-slider .extra-wrapper{
+		min-height: 400px;
+		height:auto !important; 
+		height: 400px;
+	}
+	.flex-slider .flex-text{
+		padding: 1.5rem 1.5rem 0.4rem;
+		bottom: 1.5rem !important;
+	}
+	.flex-slider .flex-text p{
+		font-size: 1.5rem;
+		line-height: 1.8rem;
+	}
+}

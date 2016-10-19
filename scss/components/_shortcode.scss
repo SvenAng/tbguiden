@@ -1,0 +1,89 @@
+/*bakgrundsbilder*/
+.node-page .image1{
+	background: url('../images/image1.jpg');
+}
+
+
+.node-page {
+	/*margin-bottom: $column-gutter;*/
+	
+	.columns{
+		padding-left: 0;
+	}
+	
+	p{
+		line-height: 1.5rem;
+		/*margin-bottom: 0;*/
+	}
+	.row{
+		padding: $column-gutter*1.5;
+		
+	}
+	.background{
+		background-repeat:no-repeat;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-size:cover;
+		background-position:center;
+		padding-top: $column-gutter;
+		/*padding-left: $column-gutter;*/
+		/*padding-right: $column-gutter;*/
+		p{
+			color: $white;
+		}
+		
+		h2{
+			color: $lightblue;	
+		}
+	}
+
+	.nothing{
+		padding-top: $column-gutter;
+		background: none;
+		/*padding-left: $column-gutter;*/
+		/*padding-right: $column-gutter;*/
+		
+	}
+	
+	.lightblue{
+		padding-top: $column-gutter;
+		background: $lightblue;
+		/*padding-left: $column-gutter;*/
+		/*padding-right: $column-gutter;*/
+	}
+	
+	.mediumblue{
+		background: $mediumblue;
+		padding-top: $column-gutter;
+		/*padding-left: $column-gutter;*/
+		/*padding-right: $column-gutter;*/
+	}
+	
+	.darkblue{
+		padding-top: $column-gutter;
+		/*padding-left: $column-gutter;*/
+		/*padding-right: $column-gutter;*/
+		background: $darkblue; 
+		
+		p{
+			color: $white;
+		}
+		
+		h2{
+			color: $lightblue;	
+		}
+		h4{
+			color: $white;	
+		}
+	}
+	
+	
+}
+
+
+
+
+
+
+
