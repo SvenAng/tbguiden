@@ -84,10 +84,10 @@ a.menu-icon {
 
 a.menu-icon span{
   position: absolute;
-  height: 9px;
+  height: 6px;
   width: 100%;
-  background: red;
-  border-radius: 9px;
+  background: #003882;
+  border-radius: 0px;
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);
@@ -107,11 +107,11 @@ a.menu-icon span:nth-child(1) {
 }
 
 a.menu-icon span:nth-child(2),a.menu-icon span:nth-child(3) {
-  top: 18px;
+  top: 12px;
 }
 
 a.menu-icon span:nth-child(4) {
-  top: 36px;
+  top: 24px;
 }
 
 a.menu-icon.open span:nth-child(1) {
