@@ -252,10 +252,11 @@ $yellow: #fbd400;
 @import url(https://fonts.googleapis.com/icon?family=Material+Icons);
 
 @font-face {
-    font-family: Bureau;
-    src: url(../fonts/BureauGrotCond-Medium.otf);
+    /*font-family: Bureau;*/
+    font-family: BebasNeue;
+    src: url(../fonts/BebasNeue.otf);
 }
-$font-family-sans-serif: Bureau, Arial, sans-serif !default;
+$font-family-sans-serif: BebasNeue, Arial, sans-serif !default;
 $font-family-serif: Cambria, "Times New Roman", Times, serif !default;
 $font-family-monospace: Consolas, "Liberation Mono", Courier, monospace !default;
 
