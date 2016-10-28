@@ -318,6 +318,7 @@ $menu-slide: "transform 500ms ease" !default;
       /*position: relative;*/
       transform: translate3d(0,0,0);
       float: right;
+        margin-top: $column-gutter/2;
 
       // @include for the hamburger menu-icon
       //
